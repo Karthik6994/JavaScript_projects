@@ -1,0 +1,28 @@
+body{background-image: url("https://img.freepik.com/free-vector/gradient-question-mark-pattern-design_23-2149423892.jpg");}
+
+h1,p{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: flexbox;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30%;
+    background-color: white;
+    height: auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+} 
+
+#user_guess{
+    margin-left: 150px;
+}
