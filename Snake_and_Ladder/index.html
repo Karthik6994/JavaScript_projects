@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake and Ladder Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎲 Snake & Ladder Game</h1>
+  <div id="game-container">
+    <div id="board"></div>
+    <div id="sidebar">
+      <h2>Dice Roll: <span id="dice">0</span></h2>
+      <div id="players">
+        <button class="player-btn" data-player="1" style="background-color:red">Player 1</button>
+        <button class="player-btn" data-player="2" style="background-color:blue">Player 2</button>
+        <button class="player-btn" data-player="3" style="background-color:green">Player 3</button>
+        <button class="player-btn" data-player="4" style="background-color:orange">Player 4</button>
+      </div>
+      <h2 id="winner"></h2>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
