@@ -1,0 +1,15 @@
+flask_task_service/
+│
+├── app.py
+├── config.py
+├── db.py
+├── models.py
+├── routes/
+│   ├── __init__.py
+│   ├── database_routes.py
+│   ├── upload_routes.py
+│   ├── export_routes.py
+│   └── analytics_routes.py
+│
+├── requirements.txt
+└── sampledb.xlsx
